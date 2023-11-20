@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(111, 20, 20);
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.card{
+    box-shadow: 5px 3px 5px 3px rgb(23, 4, 4);
+    position: relative;
+    border-radius:20px ;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    width: 320px;
+    height: 600px;
+    background-color: rgb(58, 10, 10);
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid white;
+}
+
+img{
+
+    border: 5px solid rgb(58, 10, 10);
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.nome{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.jutsu{
+    text-indent: 20px;
+}
+
+.rosto{
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px 20px 4px 4px;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Personagens>
+    <uchiha>
+        <nome>Itachi</nome>
+        <idade>21 anos</idade>
+        <olhos>Mangekyou</olhos>
+        <jutsu>Amaterasu, Izanami, Susanoo, Tsukuyomi </jutsu>
+        <status>Morto</status>
+        <foto>https://raw.githubusercontent.com/Felipecpo1/imagens/main/itachi.png</foto>
+    </uchiha>
+
+    <uchiha>
+        <nome>Sasuke</nome>
+        <idade>17 anos</idade>
+        <olhos>Mangekyou Sharingan, Rinnegan</olhos>
+        <jutsu>Amaterasu, Susanoo, Chidori, Kirin</jutsu>
+        <status>Vivo</status>
+        <foto>https://raw.githubusercontent.com/Felipecpo1/imagens/main/sasuke.png</foto>
+    </uchiha>
+
+    <uchiha>
+        <nome>Obito</nome>
+        <idade>31 anos</idade>
+        <olhos>Mangekyou Sharingan, Rinnegan</olhos>
+        <jutsu>Kamui,Izanagi </jutsu>
+        <status>Morto</status>
+        <foto>https://raw.githubusercontent.com/Felipecpo1/imagens/main/obito.png</foto>
+    </uchiha>
+
+    <uchiha>
+        <nome>Madara</nome>
+        <idade>30-40 anos</idade>
+        <olhos>Mangekyou Sharingan, Rinnegan</olhos>
+        <jutsu>Susanoo, Chibaku Tensei, Izanagi, Kamui </jutsu>
+        <status>Morto</status>
+        <foto>https://raw.githubusercontent.com/Felipecpo1/imagens/main/madara.png</foto>
+    </uchiha>
+
+    <uchiha>
+        <nome>Shisui</nome>
+        <idade>16 anos</idade>
+        <olhos>Mangekyou Sharingan</olhos>
+        <jutsu>Kotoamatsukami, Invocação de Corvos </jutsu>
+        <status>Morto</status>
+        <foto>https://raw.githubusercontent.com/Felipecpo1/imagens/main/shisui.png</foto>
+    </uchiha>
+</Personagens>
