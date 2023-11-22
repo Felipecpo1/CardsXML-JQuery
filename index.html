@@ -10,6 +10,7 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   />
+    <link rel="stylesheet" href="src/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" ></script>
 </head>
 <body>
@@ -21,10 +22,9 @@
     <div class="swiper">
         <div class="swiper-wrapper">
           <!-- Aqui dentro serão gerados os slides pelo Jquery -->
+          
         </div>
-        <!-- Paginação -->
-        <div class="swiper-pagination"></div>
-      
+        <i id='nada' class="fa-solid fa-plus"></i>
         <!-- Botões de navegação -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
@@ -46,9 +46,6 @@
         // Parametros para o swiper
         direction: 'horizontal',
         loop: true,
-        pagination: {
-        el: '.swiper-pagination',
-        },
         keyboard: {
         enabled: true,
         onlyInViewport: false,
