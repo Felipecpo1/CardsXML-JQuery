@@ -15,50 +15,39 @@
 </head>
 <body>
   <h1>U c h i h a s</h1>
-
-</body>
-
-    <!-- Div para por o Swiper  -->
-    <div class="swiper">
-        <div class="swiper-wrapper">
-          <!-- Aqui dentro serão gerados os slides pelo Jquery -->
-          
-        </div>
-        <i id='nada' class="fa-solid fa-plus"></i>
-        <!-- Botões de navegação -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      
-        <!-- Barra de rolamento -->
-        <div class="swiper-scrollbar"></div>
-      </div>
+  <!-- Div para por o Swiper  -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <!-- Aqui dentro serão gerados os slides pelo Jquery -->
+    </div>
+    <!-- Botões de navegação -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>  <br>
+  <span>Clique na imagem</span>
     
-
-    <script src="script.js"></script>
-    <!-- CDN para o SWIPER -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">        
-    </script>
-
-    <script type="module">
-        
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
-        const swiper = new Swiper('.swiper', {
-        // Parametros para o swiper
-        direction: 'horizontal',
-        loop: true,
-        keyboard: {
-        enabled: true,
-        onlyInViewport: false,
-        },
-        navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-        },
-        scrollbar: {
-        el: '.swiper-scrollbar',
-        },
-        });
-        
-    </script>
 </body>
+<script src="script.js"></script>
+<!-- CDN para o SWIPER -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">        
+</script>
+
+<script type="module">
+    
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+    const swiper = new Swiper('.swiper', {
+    // Parametros para o swiper
+    direction: 'horizontal',
+    loop: true,
+    keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+    },
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+    });
+    
+</script>
 </html>
